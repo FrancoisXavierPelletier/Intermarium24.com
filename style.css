@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding; 0;
+    background: darkslategrey;
+}
+
+body{
+    font-family: arial, sans-serif;
+}
+
+
+h1{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+.wrapper{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.orange{
+    color: orange;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+header{
+    height:100px;
+}
+
+header h1{
+    float: left;
+    margin-top: 25px;
+}
+
+header nav{
+    float: right; 
+    margin-top: 50px;
+}
+
+header nav li
+{
+    display: inline-block;
+}
+
+header nav li a {
+    text-transform: uppercase;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Slideshow */
+
+.slideshow-container {
+    max-width: 940px;
+    position: relative;
+    margin: auto;
+    background: red;
+  
+}
+
+.mySlides {
+    display: none;
+    height: 300px;
+    width: 97.5%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#slide1{
+    background: url('images/img1.jpg') center;
+}
+
+#slide2{
+    background: url('images/img1.jpg') center;
+}
+
+#slide3{
+    background: url('images/img1.jpg') center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+left: 150px;
+border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 150px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 3px 0 0 3px;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-top: 237px;
+    position: relative;
+    width: 97.4%;
+    text-align: justify;
+    background: black;
+    opacity: 0.8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: relative;
+  top: 0;
+  background: transparent;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+/* Category */
+
+.category{
+    height: 200px;
+    width: 172px;
+    background: red;
+    float: left;
+    margin: 20px 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+
+#military{
+    background: url('images/military.jpg') center;
+}
+
+#economy{
+    background: url('images/economy.jpg') center;
+}
+
+#society{
+    background: url('images/social.jpg') center;
+}
+
+#culture{
+    background: url('images/culture.jpg') center;
+}
+
+#tech{
+    background: url('images/tech.jpg') center;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: 'Crete Round', serif;
+    background: black;
+    opacity: 0.8;
+    
+}
